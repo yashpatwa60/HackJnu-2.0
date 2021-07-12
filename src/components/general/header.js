@@ -1,5 +1,10 @@
 import React from "react";
 import headImg from "../../assets/img/head.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+ AOS.refresh();
 
 
 export default function Header() {
@@ -35,7 +40,11 @@ export default function Header() {
           </div>
         </div>
         <div className="mt-2 mt-md-3 aos-init aos-animate" data-aos="zoom-out">
-          <a target="_blank" href="https://www.surveymonkey.com/r/hackrx_reg">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.surveymonkey.com/r/hackrx_reg"
+          >
             <button type="button" className="btn registerBtn ">
               <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-1 ">
@@ -45,7 +54,11 @@ export default function Header() {
               </div>
             </button>
           </a>
-          <a target="_blank" href="./downloads/pitch_deck_template.ppt">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="./downloads/pitch_deck_template.ppt"
+          >
             <button type="button" className="btn registerBtn mt-2 mt-md-0">
               <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-1 ">
@@ -57,6 +70,7 @@ export default function Header() {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.surveymonkey.com/r/hackrx_pitch_deck"
           >
             <button type="button" className="btn registerBtn mt-2 mt-md-0">

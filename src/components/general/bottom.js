@@ -1,5 +1,11 @@
 import React from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import P3 from "../../assets/img/prizeWorth/2.svg";
+import P1 from "../../assets/img/prizeWorth/1.svg";
+import P2 from "../../assets/img/prizeWorth/Team of tiny office people employees winning gold cup [Converted]-01.svg";
+AOS.init();
+ AOS.refresh();
 
 
 export default function Bottom() {
@@ -24,7 +30,7 @@ export default function Bottom() {
             <div class="card border-0 prizeCard" data-aos="zoom-in">
               <div class="d-flex justify-content-center">
                 <img
-                  src="/images/2.svg"
+                  src={P3}
                   style={{ maxWidth: "80%", maxHeight: "80%" }}
                   class="card-img-top "
                   alt="..."
@@ -41,7 +47,7 @@ export default function Bottom() {
             <div class="card border-0" data-aos="zoom-in">
               <div class="d-flex justify-content-center">
                 <img
-                  src="/images/1.svg"
+                  src={P1}
                   style={{ maxWidth: "80%", maxHeight: "80%" }}
                   class="card-img-top "
                   alt="..."
@@ -58,7 +64,7 @@ export default function Bottom() {
             <div class="card border-0 prizeCard3" data-aos="zoom-in">
               <div class="d-flex justify-content-center">
                 <img
-                  src="/images/Team of tiny office people employees winning gold cup [Converted]-01.svg"
+                  src={P2}
                   style={{ maxWidth: "80%", maxHeight: "80%" }}
                   class="card-img-top "
                   alt="..."

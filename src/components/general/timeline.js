@@ -1,4 +1,15 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  easing: "ease-out-back",
+  duration: 800,
+  delay: 300,
+  once: true,
+});
+ AOS.refresh();
+
 
 export default function ListDetail() {
   return (
@@ -11,7 +22,7 @@ export default function ListDetail() {
                 <h3>HackRx 2.0 Timeline</h3>
               </div>
             </li>
-            <li className="timeline-unverted aos-init" data-aos="zoom-in">
+            <li className="timeline-unverted" data-aos="zoom-in">
               <div className="timeline-badge">
                 <i className="fas fa-flag"></i>
               </div>
@@ -26,7 +37,7 @@ export default function ListDetail() {
               </div>
             </li>
             <li
-              className="timeline-inverted data-aos= aos-init"
+              className="timeline-inverted "
               data-aos="zoom-in"
             >
               <div className="timeline-badge">
