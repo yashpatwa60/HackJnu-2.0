@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/img/logo.jpeg";
 
-export default function Nav() {
+export default function Navbar() {
   return (
     <nav className="navbar navStyle navbar-expand-lg">
       <div className="navbar-collapse flex-grow-1 text-right" id="myNavbar">

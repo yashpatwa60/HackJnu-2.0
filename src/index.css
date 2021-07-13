@@ -8,7 +8,6 @@ body {
   margin-top: 180px;
 }
 
-
 /* Accordian */
 .accordion-button:not(.collapsed) {
   color: #5c2d90;
@@ -416,7 +415,7 @@ hr.solid {
 /* Jury */
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #50bfa8;
+  background: linear-gradient(to right, rgb(0, 217, 255),rgb(243, 3, 115) );
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -437,7 +436,7 @@ hr.solid {
 .juryCard2,
 .juryCard3,
 .juryCard4 {
-  background-color: #5c2d90;
+  background: linear-gradient(to left,rgb(0, 217, 255),rgb(243, 3, 115) );
   overflow: hidden;
 }
 
