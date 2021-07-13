@@ -1,24 +1,27 @@
 import React from "react";
-import Detail from "../../components/general/detail";
-import Header from "../../components/general/header";
-import ListDetail from "../../components/general/timeline";
-import Nav from "../../components/general/Navbar";
-import Bottom from "../../components/general/bottom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
-AOS.refresh();
+import Navbar from '../../components/general/navbar';
+import Header from '../../components/general/header';
+import Info from '../../components/general/information';
+import Prize from '../../components/general/prize';
+import Timeline from '../../components/general/timeline';
+import Problem from '../../components/general/problems';
+import Jury from '../../components/general/jury';
+import Faqs from '../../components/general/faqs';
+import Footer from '../../components/general/footer';
 
 const Index = () => {
   return (
-    <div>
-      <Nav />
+    <>
+      <Navbar />
       <Header />
-      <Detail />
-      <ListDetail />
-      <Bottom />
-    </div>
+      <Info />
+      <Prize />
+      <Timeline />
+      <Problem />
+      <Jury />
+      <Faqs />
+      <Footer />
+    </>
   );
 };
 
