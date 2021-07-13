@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="navbar-collapse flex-grow-1 text-right" id="myNavbar">
         <ul className="navbar-nav ms-auto flex-nowrap">
           <li className="nav-item">
-            <img src={logo} alt="" className="navImg" />
+            <h1>Home</h1>
           </li>
         </ul>
       </div>

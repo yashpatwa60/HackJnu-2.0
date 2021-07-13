@@ -2,6 +2,13 @@ body {
   overflow-x: hidden;
   font-family: maven pro, sans-serif;
 }
+
+.hackText
+{
+  margin-top: 180px;
+}
+
+
 /* Accordian */
 .accordion-button:not(.collapsed) {
   color: #5c2d90;
@@ -28,7 +35,7 @@ hr.solid {
 }
 /* Navbar */
 .navStyle {
-  background-color: #5c2d90;
+ 
   height: calc(100% - 10px);
 }
 .navImg {
@@ -38,18 +45,16 @@ hr.solid {
 
 /* header */
 .masthead {
-  background-color: #5c2d90;
-  margin-top: -90px;
+  background: linear-gradient(to left,rgb(0, 217, 255),rgb(243, 3, 115) );
   padding-bottom: 5rem;
 }
 .typewriter h2 {
-  color: #fdca7b;
+  color: rgb(19, 17, 17);
   white-space: nowrap;
   font-weight: bolder;
-  font-size: 3vh;
+  font-size: 6vh;
   overflow: hidden;
-  border-right: 0.15em solid #fdca7b;
-  font-size: 3vh;
+  border-right: 0.15em solid black;
   white-space: nowrap;
   margin: 0 auto;
   width: 20em;
@@ -104,7 +109,7 @@ hr.solid {
       border-color: transparent;
   }
   50% {
-      border-color: #fdca7b;
+      border-color: black;
   }
 }
 .registerBtn {
@@ -114,7 +119,7 @@ hr.solid {
   min-height: 50px;
   font-weight: 700;
   font-size: 20px;
-  background-color: #ee7268;
+  background-color: #03045e;
 }
 
 /* Detail */
