@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"); */
+
 body {
   overflow-x: hidden;
   font-family: maven pro, sans-serif;
@@ -112,13 +114,17 @@ hr.solid {
   }
 }
 .registerBtn {
-  color: #fff;
+  color: #4cc9f0;
   width: 210px;
   margin: 0 2.5px;
   min-height: 50px;
   font-weight: 700;
   font-size: 20px;
   background-color: #03045e;
+}
+.registerBtn :hover
+{
+  color: white!important;
 }
 
 /* Detail */
