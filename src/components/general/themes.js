@@ -48,7 +48,7 @@ const themes = [
 function Thm(props) {
   return (
     <div className="card border-0 mb-3 mx-auto" key={props.topic}>
-      {props.side == 'left' &&
+      {props.side === 'left' &&
         <div className="row g-0 statementLeft" data-aos="fade-up-left">
           <div className="col-md-4 d-flex justify-content-center">
             <img
@@ -68,7 +68,7 @@ function Thm(props) {
           </div>
         </div>
       }
-      {props.side == 'right' &&
+      {props.side === 'right' &&
         <div className="row g-0 statementRight" data-aos="fade-up-right">
           <div className="col-md-8">
             <div className="card-body">

@@ -1,15 +1,7 @@
 import React from "react";
-import headImg from "../../assets/img/head.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Rocket from '../../assets/img/rocket.svg'
 import Logo from '../../assets/img/logo.jpeg'
 
-AOS.init({
-  duration: 400,
-  easeing: 'ease',
-});
-AOS.refresh();
 export default function Header() {
   return (
     <header className="masthead text-white text-center">
@@ -17,12 +9,12 @@ export default function Header() {
         <div className="row mt-5 ">
           <div className="col-md-4"></div>
           <div className="col-md-5">
-            <img src={Logo} align="center" className="img-fluid" />
+            <img src={Logo} align="center" className="img-fluid" alt="..." />
           </div>
         </div>
         <div className="row">
           <div className="col-md-6 mt-2">
-            <img src={Rocket} />
+            <img src={Rocket}  alt="..." />
           </div>
           <div className="col-md-6 mt-5">
             <div className="mt-5">
