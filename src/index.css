@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-family: maven pro, sans-serif;
 }
+/* Accordian */
 .accordion-button:not(.collapsed) {
   color: #5c2d90;
   background-color: rgb(91, 44, 143, 0.2);
@@ -20,38 +21,12 @@ body {
   color: #5c2d90;
   background: rgb(91, 44, 143, 0.2);
 }
+
+/* Solid Line */
 hr.solid {
   border-top: 3px solid #bbb;
 }
-hr.solid2 {
-  border-style: solid;
-  border-width: medium;
-  margin-left: -80px;
-  border-color: #50bfa8;
-}
-#triangle_right {
-  width: 0;
-  height: 0;
-  border-top: 70px solid transparent;
-  border-left: 140px solid #ff5a00;
-  border-bottom: 70px solid transparent;
-}
-.juryCard1 {
-  background-color: #5c2d90;
-  overflow: hidden;
-}
-.juryCard2 {
-  background-color: #5c2d90;
-  overflow: hidden;
-}
-.juryCard3 {
-  background-color: #5c2d90;
-  overflow: hidden;
-}
-.juryCard4 {
-  background-color: #5c2d90;
-  overflow: hidden;
-}
+/* Navbar */
 .navStyle {
   background-color: #5c2d90;
   height: calc(100% - 10px);
@@ -60,147 +35,12 @@ hr.solid2 {
   width: 220px;
   padding: 20px;
 }
-.modal-body {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.registerBtn {
-  color: #fff;
-  width: 220px;
-  min-height: 50px;
-  font-weight: 700;
-  font-size: 20px;
-  background-color: #ee7268;
-}
-.dateContent {
-  margin: 500px;
-}
+
+/* header */
 .masthead {
   background-color: #5c2d90;
   margin-top: -90px;
   padding-bottom: 5rem;
-}
-.cardStyle {
-  min-height: 65px;
-  border-radius: 44px;
-  margin-top: -34px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0 3px 10px;
-}
-.prizeCard {
-  margin-top: 180px;
-}
-.prizeCard3 {
-  margin-top: 230px;
-}
-.buttonStyle {
-  background-color: #5c2d90;
-  color: #fff;
-  min-width: 170px;
-}
-.buttonStyle:hover {
-  background-color: #481b7b;
-  color: #fff;
-}
-@media screen and (max-width: 600px) {
-  .prizeCard {
-    margin-top: 0;
-  }
-  .prizeCard3 {
-    margin-top: 0;
-  }
-  .first {
-    order: 2;
-  }
-  .second {
-    order: 1;
-  }
-  .third {
-    order: 3;
-  }
-  .navImg {
-    width: 200px;
-    padding: 20px;
-  }
-  .masthead {
-    background-color: #5c2d90;
-    margin-top: 0;
-    padding-bottom: 5rem;
-  }
-}
-.iconfont {
-  font-size: 30px;
-  color: #50bfa8;
-}
-#principal-content {
-  background: none repeat scroll 0 0 #fff;
-  padding: 0;
-  position: relative;
-  z-index: 980;
-}
-#principal-content #develop {
-  margin: 1em 0;
-  text-align: center;
-}
-.footer {
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-  background-color: #5c2d90;
-}
-.textHeadingFooter {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fdca7b;
-  margin-bottom: 0;
-  text-align: left;
-}
-.footerContent {
-  color: #fff;
-  font-size: 80px;
-  display: block;
-  text-decoration: none;
-  margin-bottom: 8px;
-  margin-top: 0;
-}
-.copyright {
-  background-color: #481b7b;
-}
-.ball {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
-}
-.typan {
-  color: #fff;
-  white-space: nowrap;
-  font-weight: bolder;
-  font-size: 3vh;
-  overflow: hidden;
-  width: 20em;
-  animation: type 4s steps(60, end);
-}
-.typ:nth-child(2) {
-  animation: type2 8s steps(60, end);
-}
-@keyframes type {
-  from {
-    width: 0;
-  }
-}
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 0;
-  }
-  100% {
-    width: 100;
-  }
-}
-@keyframes blink {
-  to {
-    opacity: 0;
-  }
 }
 .typewriter h2 {
   color: #fdca7b;
@@ -216,87 +56,76 @@ hr.solid2 {
   animation: typing 5.5s steps(40, end), blink-caret 1s step-end infinite;
   animation-iteration-count: infinite;
 }
+.typan {
+  color: #fff;
+  white-space: nowrap;
+  font-weight: bolder;
+  font-size: 3vh;
+  overflow: hidden;
+  width: 20em;
+  animation: type 4s steps(60, end);
+}
+.typ:nth-child(2) {
+  animation: type2 8s steps(60, end);
+}
+@keyframes type {
+  from {
+      width: 0;
+  }
+}
+@keyframes type2 {
+  0% {
+      width: 0;
+  }
+  50% {
+      width: 0;
+  }
+  100% {
+      width: 100;
+  }
+}
+@keyframes blink {
+  to {
+      opacity: 0;
+  }
+}
+
 @keyframes typing {
   from {
-    width: 0;
+      width: 0;
   }
   to {
-    width: 100%;
+      width: 100%;
   }
 }
 @keyframes blink-caret {
   from,
   to {
-    border-color: transparent;
+      border-color: transparent;
   }
   50% {
-    border-color: #fdca7b;
+      border-color: #fdca7b;
   }
 }
-.img-thumbnail {
-  padding: 0.25rem;
-  background-color: #50bfa8;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
-}
-.headingMain {
-  display: table;
-  margin: 0 auto;
-  padding: 7px 15px;
-  color: #000;
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 700;
-  background: #fdca7b;
-  border-radius: 4px;
-}
-.headingMain1 {
-  display: table;
-  margin: 0 auto;
-  padding: 7px 15px;
+.registerBtn {
   color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
+  width: 210px;
+  margin: 0 2.5px;
+  min-height: 50px;
   font-weight: 700;
-  background: #50bfa8;
-  border-radius: 4px;
+  font-size: 20px;
+  background-color: #ee7268;
 }
-.headingMain5 {
-  display: table;
-  margin: 0 auto;
-  padding: 7px 15px;
-  color: #000;
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background: #fdca7b;
-  border-radius: 4px;
+
+/* Detail */
+.cardStyle {
+  min-height: 65px;
+  border-radius: 44px;
+  margin-top: -34px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 3px 10px;
 }
-.headingMain2 {
-  display: table;
-  margin: 0 auto;
-  padding: 7px 15px;
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background: #50bfa8;
-  border-radius: 4px;
-}
-.headingMain3 {
-  display: table;
-  margin: 0 auto;
-  padding: 7px 15px;
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background: #ee7268;
-  border-radius: 4px;
-}
+
+/* Timeline */
 .timeline {
   list-style: none;
   padding: 20px 0;
@@ -328,17 +157,17 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline:before {
-    margin-left: -64px;
+      margin-left: -64px;
   }
 }
 @media screen and (max-width: 480px) {
   .timeline:before {
-    margin-left: -64px;
+      margin-left: -64px;
   }
 }
 @media screen and (max-width: 996px) {
   .timeline .timeline-heading {
-    margin-bottom: 10px;
+      margin-bottom: 10px;
   }
 }
 .timeline .timeline-heading > div h3 {
@@ -357,8 +186,8 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline .timeline-heading > div h3 {
-    float: left;
-    margin-bottom: 0;
+      float: left;
+      margin-bottom: 0;
   }
 }
 .timeline > li {
@@ -367,7 +196,7 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline > li {
-    margin-bottom: 4em;
+      margin-bottom: 4em;
   }
 }
 .timeline > li:before,
@@ -390,18 +219,18 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline > li > .timeline-panel {
-    width: 85% !important;
+      width: 85% !important;
   }
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
-    width: 75% !important;
+      width: 75% !important;
   }
   .timeline > li > .timeline-panel:before {
-    top: 30px;
+      top: 30px;
   }
   .timeline > li > .timeline-panel:after {
-    top: 31px;
+      top: 31px;
   }
 }
 .timeline > li > .timeline-badge {
@@ -425,12 +254,12 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
+      margin-left: -10px !important;
   }
 }
 @media screen and (max-width: 992px) {
   .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
+      margin-left: -10px !important;
   }
 }
 .timeline > li > .timeline-badge i {
@@ -444,7 +273,7 @@ hr.solid2 {
 }
 @media screen and (max-width: 996px) {
   .timeline > li.timeline-unverted {
-    text-align: left;
+      text-align: left;
   }
 }
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -481,31 +310,225 @@ hr.solid2 {
 }
 @media (max-width: 992px) {
   ul.timeline:before {
-    left: 90px;
+      left: 90px;
   }
   ul.timeline > li > .timeline-panel {
-    width: calc(100% - 200px);
-    width: -moz-calc(100% - 200px);
-    width: -webkit-calc(100% - 200px);
+      width: calc(100% - 200px);
+      width: -moz-calc(100% - 200px);
+      width: -webkit-calc(100% - 200px);
   }
   ul.timeline > li > .timeline-badge {
-    left: 15px;
-    margin-left: 0;
-    top: 16px;
+      left: 15px;
+      margin-left: 0;
+      top: 16px;
   }
   ul.timeline > li > .timeline-panel {
-    float: right;
+      float: right;
   }
   ul.timeline > li > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
+      border-left-width: 0;
+      border-right-width: 15px;
+      left: -15px;
+      right: auto;
   }
   ul.timeline > li > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
+      border-left-width: 0;
+      border-right-width: 14px;
+      left: -14px;
+      right: auto;
   }
+}
+
+/* Prize */
+.headingMain5 {
+  display: table;
+  margin: 0 auto;
+  padding: 7px 15px;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #fdca7b;
+  border-radius: 4px;
+}
+.prizeCard {
+  margin-top: 180px;
+}
+
+.prizeCard3 {
+  margin-top: 230px;
+}
+
+@media screen and (max-width: 600px) {
+  .prizeCard {
+      margin-top: 0;
+  }
+  .prizeCard3 {
+      margin-top: 0;
+  }
+  .first {
+      order: 2;
+  }
+  .second {
+      order: 1;
+  }
+  .third {
+      order: 3;
+  }
+  .navImg {
+      width: 200px;
+      padding: 20px;
+  }
+  .masthead {
+      background-color: #5c2d90;
+      margin-top: 0;
+      padding-bottom: 5rem;
+  }
+}
+
+/* Problems */
+.headingMain2 {
+  display: table;
+  margin: 0 auto;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #50bfa8;
+  border-radius: 4px;
+}
+.buttonStyle {
+  background-color: #5c2d90;
+  color: #fff;
+  min-width: 170px;
+}
+.buttonStyle:hover {
+  background-color: #481b7b;
+  color: #fff;
+}
+
+/* Jury */
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #50bfa8;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.headingMain1 {
+  display: table;
+  margin: 0 auto;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #50bfa8;
+  border-radius: 4px;
+}
+.juryCard1,
+.juryCard2,
+.juryCard3,
+.juryCard4 {
+  background-color: #5c2d90;
+  overflow: hidden;
+}
+
+/* Faqs */
+.headingMain3 {
+  display: table;
+  margin: 0 auto;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #ee7268;
+  border-radius: 4px;
+}
+
+/* Footer */
+.copyright {
+  background-color: #481b7b;
+}
+
+
+/* Others */
+hr.solid2 {
+  border-style: solid;
+  border-width: medium;
+  margin-left: -80px;
+  border-color: #50bfa8;
+}
+#triangle_right {
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-left: 140px solid #ff5a00;
+  border-bottom: 70px solid transparent;
+}
+
+.modal-body {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dateContent {
+  margin: 500px;
+}
+
+.iconfont {
+  font-size: 30px;
+  color: #50bfa8;
+}
+#principal-content {
+  background: none repeat scroll 0 0 #fff;
+  padding: 0;
+  position: relative;
+  z-index: 980;
+}
+#principal-content #develop {
+  margin: 1em 0;
+  text-align: center;
+}
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-color: #5c2d90;
+}
+.textHeadingFooter {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fdca7b;
+  margin-bottom: 0;
+  text-align: left;
+}
+.footerContent {
+  color: #fff;
+  font-size: 80px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.headingMain {
+  display: table;
+  margin: 0 auto;
+  padding: 7px 15px;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  background: #fdca7b;
+  border-radius: 4px;
 }
