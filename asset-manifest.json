@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/HackJnu-2.0/static/css/main.0e37cdd6.chunk.css",
-    "main.js": "/HackJnu-2.0/static/js/main.1bb40f4c.chunk.js",
-    "main.js.map": "/HackJnu-2.0/static/js/main.1bb40f4c.chunk.js.map",
-    "runtime-main.js": "/HackJnu-2.0/static/js/runtime-main.20bc5814.js",
-    "runtime-main.js.map": "/HackJnu-2.0/static/js/runtime-main.20bc5814.js.map",
+    "main.css": "/HackJnu-2.0/static/css/main.8be140a1.chunk.css",
+    "main.js": "/HackJnu-2.0/static/js/main.b72473c6.chunk.js",
+    "main.js.map": "/HackJnu-2.0/static/js/main.b72473c6.chunk.js.map",
+    "runtime-main.js": "/HackJnu-2.0/static/js/runtime-main.124eb581.js",
+    "runtime-main.js.map": "/HackJnu-2.0/static/js/runtime-main.124eb581.js.map",
     "static/js/2.ea8d5d36.chunk.js": "/HackJnu-2.0/static/js/2.ea8d5d36.chunk.js",
     "static/js/2.ea8d5d36.chunk.js.map": "/HackJnu-2.0/static/js/2.ea8d5d36.chunk.js.map",
-    "static/js/3.ee43a5bd.chunk.js": "/HackJnu-2.0/static/js/3.ee43a5bd.chunk.js",
-    "static/js/3.ee43a5bd.chunk.js.map": "/HackJnu-2.0/static/js/3.ee43a5bd.chunk.js.map",
+    "static/js/3.50f4e529.chunk.js": "/HackJnu-2.0/static/js/3.50f4e529.chunk.js",
+    "static/js/3.50f4e529.chunk.js.map": "/HackJnu-2.0/static/js/3.50f4e529.chunk.js.map",
     "index.html": "/HackJnu-2.0/index.html",
-    "static/css/main.0e37cdd6.chunk.css.map": "/HackJnu-2.0/static/css/main.0e37cdd6.chunk.css.map",
+    "static/css/main.8be140a1.chunk.css.map": "/HackJnu-2.0/static/css/main.8be140a1.chunk.css.map",
     "static/js/2.ea8d5d36.chunk.js.LICENSE.txt": "/HackJnu-2.0/static/js/2.ea8d5d36.chunk.js.LICENSE.txt",
-    "static/media/1.86522f80.svg": "/HackJnu-2.0/static/media/1.86522f80.svg",
-    "static/media/2.de95926c.svg": "/HackJnu-2.0/static/media/2.de95926c.svg",
-    "static/media/Team of tiny office people employees winning gold cup [Converted]-01.88b37279.svg": "/HackJnu-2.0/static/media/Team of tiny office people employees winning gold cup [Converted]-01.88b37279.svg",
     "static/media/ai.63695c7d.svg": "/HackJnu-2.0/static/media/ai.63695c7d.svg",
-    "static/media/anurag.01da238e.png": "/HackJnu-2.0/static/media/anurag.01da238e.png",
     "static/media/ar.19b71f0f.svg": "/HackJnu-2.0/static/media/ar.19b71f0f.svg",
     "static/media/bc.7ca1ecf8.svg": "/HackJnu-2.0/static/media/bc.7ca1ecf8.svg",
     "static/media/bot.3379fce4.svg": "/HackJnu-2.0/static/media/bot.3379fce4.svg",
@@ -32,12 +28,16 @@
     "static/media/ml.f07e9495.svg": "/HackJnu-2.0/static/media/ml.f07e9495.svg",
     "static/media/rocket.914f0eb0.svg": "/HackJnu-2.0/static/media/rocket.914f0eb0.svg",
     "static/media/twist.5ee2b009.png": "/HackJnu-2.0/static/media/twist.5ee2b009.png",
-    "static/media/vivek.d67a6865.png": "/HackJnu-2.0/static/media/vivek.d67a6865.png"
+    "static/media/undraw_Gift_re_qr17.a70f5b52.svg": "/HackJnu-2.0/static/media/undraw_Gift_re_qr17.a70f5b52.svg",
+    "static/media/undraw_Gifts_re_97j6.040d6c35.svg": "/HackJnu-2.0/static/media/undraw_Gifts_re_97j6.040d6c35.svg",
+    "static/media/undraw_female_avatar_w3jk.b1199224.svg": "/HackJnu-2.0/static/media/undraw_female_avatar_w3jk.b1199224.svg",
+    "static/media/undraw_male_avatar_323b.1645965b.svg": "/HackJnu-2.0/static/media/undraw_male_avatar_323b.1645965b.svg",
+    "static/media/undraw_winners_ao2o.89bde4b1.svg": "/HackJnu-2.0/static/media/undraw_winners_ao2o.89bde4b1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20bc5814.js",
+    "static/js/runtime-main.124eb581.js",
     "static/js/2.ea8d5d36.chunk.js",
-    "static/css/main.0e37cdd6.chunk.css",
-    "static/js/main.1bb40f4c.chunk.js"
+    "static/css/main.8be140a1.chunk.css",
+    "static/js/main.b72473c6.chunk.js"
   ]
 }
