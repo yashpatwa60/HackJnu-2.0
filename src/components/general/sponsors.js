@@ -9,7 +9,6 @@ import img7 from "../../assets/img/sponsors/hackerearth.png";
 import img8 from "../../assets/img/sponsors/hellointern.png";
 import img9 from "../../assets/img/sponsors/matic.svg";
 import img10 from "../../assets/img/sponsors/bugsee.png";
-import { yellow } from "@material-ui/core/colors";
 
 const themes = [
   { id: "1", side: "left", img: img1 },
@@ -41,7 +40,7 @@ export default function Sponsors() {
   return (
     <>
       <hr className="solid" />
-      <h2 className="headingMain2" data-aos="flip-up" style={{backgroundColor: '#c68ad0'}}>Past Sponsors</h2>
+      <h2 className="headingMain2" data-aos="flip-up" >Past Sponsors</h2>
       <br />
       <div className="container mt-2 mb-2">
         <div className="card border-0 mb-3 mx-auto">

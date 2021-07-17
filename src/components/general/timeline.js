@@ -9,7 +9,7 @@ export default function Timeline() {
           <ul className="timeline">
             <li className="timeline-heading text-center">
               <div>
-                <h3>HackRx 2.0 Timeline</h3>
+                <h3>HackJnu 2.0 Timeline</h3>
               </div>
             </li>
 

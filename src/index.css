@@ -121,6 +121,7 @@ hr.solid {
   font-weight: 700;
   font-size: 20px;
   background-color: #03045e;
+  
 }
 .registerBtn :hover
 {
@@ -129,9 +130,9 @@ hr.solid {
 
 /* Detail */
 .cardStyle {
-  min-height: 65px;
-  border-radius: 44px;
-  margin-top: -34px;
+  min-height: 100px;
+  /* border-radius: 44px; */
+  /* margin-top: -34px; */
   box-shadow: rgba(0, 0, 0, 0.35) 0 3px 10px;
 }
 
@@ -148,7 +149,7 @@ hr.solid {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 700;
-  background: rgb(91, 44, 143, 1);
+  background: #00b4d8;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -187,7 +188,7 @@ hr.solid {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 700;
-  background: rgb(91, 44, 143, 1);
+  background: #00b4d8;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -354,11 +355,11 @@ hr.solid {
   display: table;
   margin: 0 auto;
   padding: 7px 15px;
-  color: #000;
+  color: #fff;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  background: #fdca7b;
+  background: #00b4d8;
   border-radius: 4px;
 }
 .prizeCard {
@@ -405,7 +406,7 @@ hr.solid {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  background: #50bfa8;
+  background: #00b4d8;
   border-radius: 4px;
 }
 .buttonStyle {
@@ -435,7 +436,7 @@ hr.solid {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  background: #50bfa8;
+  background: #00b4d8;
   border-radius: 4px;
 }
 .juryCard1,
@@ -455,7 +456,7 @@ hr.solid {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  background: #ee7268;
+  background: #00b4d8;
   border-radius: 4px;
 }
 

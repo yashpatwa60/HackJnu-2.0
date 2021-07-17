@@ -30,13 +30,10 @@ export default function Header() {
           </div>
         </div>
         <div className="mt-3 mt-md-5" data-aos="zoom-out">
-          <a target="_blank" href="https://www.surveymonkey.com/r/hackrx_reg">
+          <a target="_blank" href="#">
             <button type="button" className="btn registerBtn">
               <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-1">
-                  <h2>1.</h2>
-                </div>
-                <div className="col">Register for HackRx 2.0</div>
+                <div className="col">Register for HackJnu 2.0</div>
               </div>
             </button>
           </a>
